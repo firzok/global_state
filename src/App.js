@@ -8,7 +8,6 @@ const App = () => {
   };
 
   const reducer = (state, action) => {
-    debugger;
     switch (action.type) {
       case "changeTheme":
         return {
